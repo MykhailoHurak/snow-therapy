@@ -1,0 +1,26 @@
+.hero {
+    background: rgb(100, 200, 200);
+    padding-top: 40px;
+    padding-bottom: 80px;
+}
+
+.hero__header {
+    text-align: center;
+    font-size: 50px;
+}
+
+.hero__text {
+    display: block;
+    width: 600px;
+    margin: 0 auto 40px;
+    font-size: 22px;
+}
+
+.hero__button {
+    display: block;
+    margin: 0 auto;
+    padding: 12px 40px;
+    border-radius: 24px;
+    background-color: chocolate;
+    cursor: pointer;
+}
