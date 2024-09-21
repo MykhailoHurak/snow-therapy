@@ -1,9 +1,20 @@
 /* Base */
 
+* {
+    font-family: poppins-semibold, poppins, sans-serif;
+}
+
 ul {
     padding: 0;
     list-style: none;
   }
+
+/* Section */
+
+.section__title {
+    text-align: center;
+    font-size: 50px;
+}  
 
 /* Section Hero */
 
@@ -13,7 +24,7 @@ ul {
     padding-bottom: 80px;
 }
 
-.hero__header {
+.hero__title {
     text-align: center;
     font-size: 50px;
 }
@@ -50,4 +61,42 @@ ul {
 .advantages-item {
     display: flex;
     gap: 20px;
+}
+
+.advantages-text {
+    font-style: 16px;
+}
+
+/* Section Steps */
+
+.steps-item {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.steps-item--reverse {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.steps-number {
+    font-size: 44px;
+    color: rgb(0, 87, 225);
+    font-weight: 700;
+}
+
+.steps-title {
+    font-size: 36px;
+    color: #061A57;
+}
+
+.steps-title--padding,
+.steps-text--padding {
+    padding-left: 40px;
+}
+
+.steps-text {
+    font-size: 24px;
+    color: #061A57;
 }
