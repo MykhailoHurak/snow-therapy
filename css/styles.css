@@ -14,6 +14,7 @@ ul {
 .section__title {
     text-align: center;
     font-size: 50px;
+    color: #061A57;
 }  
 
 /* Section Hero */
@@ -98,5 +99,35 @@ ul {
 
 .steps-text {
     font-size: 24px;
+    color: #d6dbe7;
+}
+
+/* Section Forms */
+
+.form-box {
+    background-color: darkorange;
+    width: 500px;
+    margin: 0 auto;
+}
+
+.form-field {
+    margin-bottom: 20px;
+}
+
+.form-input {
     color: #061A57;
+    background-color: #c3d8ff;
+    padding: 20px 40px;
+    border-radius: 20px;
+    border: 0;
+}
+
+.form-button {
+    background-color: #1d67cd;
+    color: #ffffff;
+    padding: 20px 60px;
+    font-size: 24px;
+    font-family: poppins-semibold, poppins, sans-serif;
+    border: 0;
+    border-radius: 20px;
 }
