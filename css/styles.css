@@ -8,6 +8,8 @@
   
   body {
     font-family: poppins-semibold, poppins, sans-serif;
+    padding: 0;
+    margin: 0;
   }
   
   ul {
@@ -42,6 +44,14 @@
       max-width: 100%;
       height: auto;
   }
+
+/* Container */
+
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 40px;
+}
 
 /* Section */
 
